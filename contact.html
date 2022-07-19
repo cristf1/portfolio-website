@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Cristine's HTML Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type= "text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="shortcut icon" href="img/favicon-32x32.png"/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+
+<body>
+	<header class="page_header">
+		<!--This is for the logo-->
+		<img src="img/cristine_logo.png" width="120px" height="120px" alt="Camera Logo" >
+		<nav class="page_header_menubar">
+			<ul role="menubar" class="navigation-list">
+				<li role="presentation">
+					<a href="index.html" role="menuitem" class="navigation-list_item">Home</a>
+				</li>
+				<li role="presentation">
+					<a href="about.html" role="menuitem" class="navigation-list_item">About</a>
+				</li>
+				<li role="presentation">
+					<a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+				</li>
+				<li role="presentation">
+					<a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div>
+		Cristine Fang<br>
+		244 Murica Aisle<br>
+		Irvine CA 92614<br>
+		<a href="tel:6264009182"> (626)400-9182 </a><br>
+		<a href="mailto:cristft1@uci.edu"> cristf1@uci.edu </a>
+
+		<form action="" method="post" id="contact-form">
+	  	<label class="standard-form" for="contact-email">E-mail: </label>
+	  	<input type="email" id="contact-email" required>
+
+	  	<label class="standard-form" for="contact-telephone">Telephone: </label>
+	  	<input type="tel" id="contact-telephone" pattern="\d{3}[\-]\{d{3}[\-]\d{4}">
+
+	  	<label class="standard-form" for="contact-message">Message: </label>
+	  	<textarea id="contact-message" required maxlength="100"></textarea>
+
+	  	<input type="submit" value="Send message">
+		</form>
+
+	</div>
+
+	<footer class=page_footer>
+		<h2>Find me on:</h2>
+		<div class="social_media">
+			<img src="img/instagram.svg" width="30px" height="30px" alt=Instagram>
+			<img src="img/facebook.svg" width="30px" height="30px"alt=Facebook>
+			<img src="img/linkedin.svg" width="30px" height="30px" alt=LinkedIn>
+		</div>
+	</footer>
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
